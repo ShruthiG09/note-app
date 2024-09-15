@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Notes App</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>📒</text></svg>">
+</head>
+<body>
+ <div id="container">
+  <div id="list-header">
+   <div id="addNoteDiv" onclick="popup()">
+    <i class="fa-solid fa-plus"></i>
+   </div>
+   <div id="welcome-text">
+    <h1 class="main-head">Welcome to your NOTES</h1>
+    <p class="head-btm">CREATE ---------------- EDIT ---------------- DELETE</p>
+   </div>
+  </div>
+  <div>
+   <h4 id="all-note-head">All notes: </h4>
+  </div>
+  <div id="list-container">
+   <ul id="notes-list"></ul>
+  </div>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
